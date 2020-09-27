@@ -22,6 +22,8 @@ body {
   margin: 15px;
   border-radius: 5px;
   background-color: aliceblue;
+  transition: all;
+  transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 .container .box:nth-child(1) {
   background-color: rgba(252, 163, 17, 1);
